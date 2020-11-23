@@ -13,8 +13,12 @@ $(document).ready(function() {
     console.log(agesObject);
     let mercuryAge = agesObject.mercuryAge();
     let venusAge = agesObject.venusAge();
+    let marsAge = agesObject.marsAge();
+    let jupiterAge = agesObject.jupiterAge();
+    let saturnAge = agesObject.saturnAge();
     console.log(mercuryAge);
-    $("p").text(mercuryAge, venusAge);
-    $("p").append(", ", venusAge);
+    $("p").text(mercuryAge,);
+    $("p").append(", ", venusAge, ", ", marsAge, ", ", jupiterAge, ", ", saturnAge);
+    
   });
 });
