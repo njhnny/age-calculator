@@ -6,4 +6,7 @@ export default class ageCalc {
   mercuryAge() {
     return Math.round(this.spaceAges / .24);
   }
+  venusAge() {
+    return Math.round(this.spaceAges/ .62);
+  }
 }

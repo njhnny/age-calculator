@@ -12,7 +12,9 @@ $(document).ready(function() {
     let agesObject = new ageCalc(userInput);
     console.log(agesObject);
     let mercuryAge = agesObject.mercuryAge();
+    let venusAge = agesObject.venusAge();
     console.log(mercuryAge);
-    $("p").text(mercuryAge);
+    $("p").text(mercuryAge, venusAge);
+    $("p").append(", ", venusAge);
   });
 });
