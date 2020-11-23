@@ -24,7 +24,12 @@ Navigate to the project's github page in your browser and download the code usin
 ### View Online
 https://github.com.io/njhnny/age-calculator  
 ### Specs
- 
+ Describe: ageCalc
+ Test: constructs an object containing the user's age as input.
+ Expect:an input of 20 to create spaceAges {20};
+ Describe: mercuryAge
+ Test: will convert the user's age in Earth years to Mercury years
+ Expect:an input of 20 to return 83
 ## Contact
 njhnny@gmail.com
 ## License
