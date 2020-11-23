@@ -10,7 +10,7 @@ $(document).ready(function() {
     event.preventDefault();
     let userInput = $("input#submission").val();
     let agesObject = new Method(userInput);
-    console.log(agesObject)
+    console.log(agesObject);
     $("p").text(agesObject.toString);
   });
 });
