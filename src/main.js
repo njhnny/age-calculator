@@ -19,6 +19,5 @@ $(document).ready(function() {
     console.log(mercuryAge);
     $("p").text(mercuryAge,);
     $("p").append(", ", venusAge, ", ", marsAge, ", ", jupiterAge, ", ", saturnAge);
-    
   });
 });
