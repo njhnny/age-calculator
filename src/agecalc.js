@@ -1,4 +1,4 @@
-export default class ageCalc {
+export default class Agecalc {
   constructor(spaceAges) {
     this.spaceAges = spaceAges;
   }
