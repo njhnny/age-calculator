@@ -7,7 +7,7 @@ describe('Agecalc', () => {
   });
 
   test('should convert user age into mercury years', () => {
-    expect(inputTest.mercuryAge).toEqual(83);
+    expect(inputTest.mercuryAge()).toEqual(83);
   });
 
 });
