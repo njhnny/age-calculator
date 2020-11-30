@@ -25,5 +25,4 @@ describe('Agecalc', () => {
   test('should convert user age into saturn years', () => {
     expect(inputTest.saturnAge()).toEqual(1);
   });
-
 });

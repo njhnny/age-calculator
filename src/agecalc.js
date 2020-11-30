@@ -6,6 +6,11 @@ export default class Agecalc {
   mercuryAge() {
     return Math.round(this.spaceAges / .24);
   }
+  mercuryLeft() {
+    let thisAge = Math.round(this.spaceAges / .24);
+    let expectancy = Math.round(85 / .24);
+    return expectancy - thisAge;
+  }
   venusAge() {
     return Math.round(this.spaceAges / .62);
   }
