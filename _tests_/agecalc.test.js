@@ -18,15 +18,31 @@ describe('Agecalc', () => {
     expect(inputTest.venusAge()).toEqual(32);
   });
 
+  test('should tell how many years the user has left on venus', () => {
+    expect(inputTest.venusLeft()).toEqual(105);
+  });
+
   test('should convert user age into mars years', () => {
     expect(inputTest.marsAge()).toEqual(11);
+  });
+
+  test('should tell how many years the user has left on mars', () => {
+    expect(inputTest.marsLeft()).toEqual(34);
   });
 
   test('should convert user age into jupiter years', () => {
     expect(inputTest.jupiterAge()).toEqual(2);
   });
 
+  test('should tell how many years the user has left on jupiter', () => {
+    expect(inputTest.jupiterLeft()).toEqual(5);
+  });
+
   test('should convert user age into saturn years', () => {
     expect(inputTest.saturnAge()).toEqual(1);
+  });
+
+  test('should tell how many years the user has left on saturn', () => {
+    expect(inputTest.saturnLeft()).toEqual(2);
   });
 });
