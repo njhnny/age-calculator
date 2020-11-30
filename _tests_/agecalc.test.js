@@ -19,7 +19,11 @@ describe('Agecalc', () => {
   });
 
   test('should convert user age into jupiter years', () => {
-    expect(inputTest.jupiterAge()).toEqual(11);
+    expect(inputTest.jupiterAge()).toEqual(2);
+  });
+
+  test('should convert user age into saturn years', () => {
+    expect(inputTest.saturnAge()).toEqual(1);
   });
 
 });
