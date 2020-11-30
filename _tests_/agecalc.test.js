@@ -10,6 +10,10 @@ describe('Agecalc', () => {
     expect(inputTest.mercuryAge()).toEqual(83);
   });
 
+  test('should tell how many years the user has left on mercury', () => {
+    expect(inputTest.mercuryLeft()).toEqual(271);
+  });
+
   test('should convert user age into venus years', () => {
     expect(inputTest.venusAge()).toEqual(32);
   });
