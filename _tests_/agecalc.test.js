@@ -10,8 +10,12 @@ describe('Agecalc', () => {
     expect(inputTest.mercuryAge()).toEqual(83);
   });
 
-  test('should convert user age into venus years', () => {
+  test('should convert user age into mars years', () => {
     expect(inputTest.venusAge()).toEqual(32);
+  });
+
+  test('should convert user age into venus years', () => {
+    expect(inputTest.marsAge()).toEqual(32);
   });
 
 });
