@@ -16,8 +16,10 @@ $(document).ready(function() {
     let marsAge = agesObject.marsAge();
     let jupiterAge = agesObject.jupiterAge();
     let saturnAge = agesObject.saturnAge();
-    console.log(mercuryAge);
-    $("p").text(mercuryAge,);
+    
+    let mercLiteral = `Your age on Mercury is ${mercuryAge}`;
+    console.log(mercLiteral);
+    $("p").text(mercuryAge);
     $("p").append(", ", venusAge, ", ", marsAge, ", ", jupiterAge, ", ", saturnAge);
   });
 });
