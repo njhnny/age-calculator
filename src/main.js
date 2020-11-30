@@ -12,11 +12,12 @@ $(document).ready(function() {
     let agesObject = new Agecalc(userInput);
     console.log(agesObject);
     let mercuryAge = agesObject.mercuryAge();
+    let mercuryRemain = agesObject.mercuryLeft();
     let venusAge = agesObject.venusAge();
     let marsAge = agesObject.marsAge();
     let jupiterAge = agesObject.jupiterAge();
     let saturnAge = agesObject.saturnAge();
-    
+    console.log(`Your time left on Mercury is ${mercuryRemain} mercury years`);
     let mercLiteral = `Your age on Mercury is ${mercuryAge}`;
     console.log(mercLiteral);
     $("p").text(mercuryAge);
