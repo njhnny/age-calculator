@@ -15,7 +15,7 @@ describe('Agecalc', () => {
   });
 
   test('should convert user age into venus years', () => {
-    expect(inputTest.marsAge()).toEqual(32);
+    expect(inputTest.marsAge()).toEqual(11);
   });
 
 });
