@@ -22,7 +22,11 @@ or
 
 * Navigate to the project's github page in your browser and download the code using the green button in the top right corner.
 
-* Next, confirm that you're in the project's root directory. Install webpack with the command (npm install.)
+* Next, confirm that you're in the project's root directory. Install webpack with the command (npm install).
+
+* Use the command (npm run start) to set up a development server. This will open a live version of the application in your browser.
+
+* To run tests, use command (npm test).
 
 ### View Online
 https://github.com.io/njhnny/age-calculator  
