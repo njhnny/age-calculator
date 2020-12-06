@@ -6,6 +6,10 @@ describe('Agecalc', () => {
     inputTest = new Agecalc(20);
   });
 
+  test('should create an Agecalc object with the defined age', () => {
+    expect(inputTest.spaceAges()).toEqual(20);
+  });
+
   test('should convert user age into mercury years', () => {
     expect(inputTest.mercuryAge()).toEqual(83);
   });
