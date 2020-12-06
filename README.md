@@ -20,7 +20,10 @@ The solar system is pretty old, and so are you. Find out your age on different p
 
 or
 
-Navigate to the project's github page in your browser and download the code using the green button in the top right corner.
+* Navigate to the project's github page in your browser and download the code using the green button in the top right corner.
+
+* Next, confirm that you're in the project's root directory. Install webpack with the command (npm install.)
+
 ### View Online
 https://github.com.io/njhnny/age-calculator  
 ### Specs
