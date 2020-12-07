@@ -1,11 +1,15 @@
 export default class Agecalc {
   constructor(spaceAges) {
     this.spaceAges = spaceAges;
-    this.pastAge = [];
   }
 
-  pastExpect() {
 
+  pastExpect() {
+    if (this.age > 85){
+      return (`you are ${this.spaceAges - 85} years past your life expectancy`);
+    } else if (this.age <= 85) {
+      return (`you have exactly${85 - this.spaceAges} years to live`);
+    }
   }
   mercuryAge() {
     return Math.round(this.spaceAges / .24);
@@ -13,7 +17,9 @@ export default class Agecalc {
   mercuryLeft() {
     let thisAge = Math.round(this.spaceAges / .24);
     let expectancy = Math.round(85 / .24);
+    if (this.spaceAges > 85 ) {
     return expectancy - thisAge;
+    }
   }
   venusAge() {
     return Math.round(this.spaceAges / .62);
