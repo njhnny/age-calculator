@@ -1,8 +1,12 @@
 export default class Agecalc {
   constructor(spaceAges) {
     this.spaceAges = spaceAges;
+    this.pastAge = [];
   }
 
+  pastExpect() {
+
+  }
   mercuryAge() {
     return Math.round(this.spaceAges / .24);
   }

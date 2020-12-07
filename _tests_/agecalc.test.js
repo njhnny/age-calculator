@@ -2,11 +2,16 @@ import Agecalc from './../src/agecalc.js';
 
 describe('Agecalc', () => {
   let inputTest;
+  
   /*beforeEach(() => {
     inputTest = new Agecalc(20);
   });*/
 
-  inputTest = new Agecalc(20);
+  inputTest = new Agecalc(20, [0]);
+    test('should create empty array for time past life expectancy', () => {
+    expect(inputTest.pastAge).toEqual([]);
+  });
+
   test('should create an Agecalc object with the defined age', () => {
     expect(inputTest.spaceAges).toEqual(20);
   });
