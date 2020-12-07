@@ -2,12 +2,13 @@ import Agecalc from './../src/agecalc.js';
 
 describe('Agecalc', () => {
   let inputTest;
-  beforeEach(() => {
+  /*beforeEach(() => {
     inputTest = new Agecalc(20);
-  });
+  });*/
 
+  inputTest = new Agecalc(20);
   test('should create an Agecalc object with the defined age', () => {
-    expect(inputTest.spaceAges()).toEqual(20);
+    expect(inputTest.spaceAges).toEqual(20);
   });
 
   test('should convert user age into mercury years', () => {
