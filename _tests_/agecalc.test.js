@@ -2,10 +2,6 @@ import Agecalc from './../src/agecalc.js';
 
 describe('Agecalc', () => {
   let inputTest;
-  
-  /*beforeEach(() => {
-    inputTest = new Agecalc(20);
-  });*/
 
   inputTest = new Agecalc(20);
 
