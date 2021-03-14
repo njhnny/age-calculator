@@ -5,9 +5,9 @@ export default class Agecalc {
 
 
   pastExpect() {
-    if (this.age > 85){
+    if (this.spaceAges > 85){
       return (`you are ${this.spaceAges - 85} years past your life expectancy`);
-    } else if (this.age <= 85) {
+    } if (this.spaceAges <= 85) {
       return (`you have exactly${85 - this.spaceAges} years to live`);
     }
   }
