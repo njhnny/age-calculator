@@ -22,11 +22,7 @@ $(document).ready(function() {
     let saturnAge = agesObject.saturnAge();
     let saturnRemain = agesObject.saturnLeft();
     let yearsLeft = agesObject.pastExpect();
-    $("p").append (`Your time left on Mercury is ${mercuryRemain} Mercury years <br>`);
-    $("p").append(`Your time left on Venus is ${venusRemain} Venus years <br>`);
-    $("p").append(`Your time left on Mars is ${marsRemain} Mars years <br>`);
-    $("p").append(`Your time left on Jupiter is ${jupiterRemain} Jupiter years <br>`);
-    $("p").append(`Your time left on saturn is ${saturnRemain} Saturn years <br>`);
+    $("p").append (`Your time left on Mercury is ${mercuryRemain} Mercury years <br>Your time left on Venus is ${venusRemain} Venus years <br>Your time left on Mars is ${marsRemain} Mars years <br>Your time left on Jupiter is ${jupiterRemain} Jupiter years <br>Your time left on saturn is ${saturnRemain} Saturn years <br>`);
     $("p").append(mercuryAge);
     $("p").append(", ", venusAge, ", ", marsAge, ", ", jupiterAge, ", ", saturnAge);
     $("p").append(yearsLeft);
