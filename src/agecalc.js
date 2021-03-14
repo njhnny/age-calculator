@@ -6,9 +6,9 @@ export default class Agecalc {
 
   pastExpect() {
     if (this.spaceAges > 85){
-      return (`you are ${this.spaceAges - 85} years past your life expectancy`);
+      return (`you are ${this.spaceAges - 85} Earth years past your life expectancy`);
     } if (this.spaceAges <= 85) {
-      return (`you have exactly${85 - this.spaceAges} years to live`);
+      return (`you have exactly${85 - this.spaceAges} Earth years to live`);
     }
   }
   mercuryAge() {
