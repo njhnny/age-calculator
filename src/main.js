@@ -8,6 +8,7 @@ import Agecalc from './../src/agecalc.js';
 
 $("form#form").submit(function(event) {
   event.preventDefault();
+  $("p").text("");
   let userInput = $("input#submission").val();
   let agesObject = new Agecalc(userInput);
   let mercuryAge = agesObject.mercuryAge();
@@ -21,7 +22,6 @@ $("form#form").submit(function(event) {
   let saturnAge = agesObject.saturnAge();
   let saturnRemain = agesObject.saturnLeft();
   let yearsLeft = agesObject.pastExpect();
-  $("p").append (`Your time left on Mercury is ${mercuryRemain} Mercury years <br>Your time left on Venus is ${venusRemain} Venus years <br>Your time left on Mars is ${marsRemain} Mars years <br>Your time left on Jupiter is ${jupiterRemain} Jupiter years <br>Your time left on saturn is ${saturnRemain} Saturn years <br>`);
-  $("p").append(mercuryAge, ", ", venusAge, ", ", marsAge, ", ", jupiterAge, ", ", saturnAge);
+  $("p").append (`Your age on Mercury is ${mercuryAge}. Your time left on Mercury is ${mercuryRemain} Mercury years.<br>Your age on Venus is ${venusAge}. Your time left on Venus is ${venusRemain} Venus years.<br>Your age on Mars is ${marsAge}. Your time left on Mars is ${marsRemain} Mars years.<br>Your age on Jupiter is ${jupiterAge}. Your time left on Jupiter is ${jupiterRemain} Jupiter years.<br>Your age on Saturn is ${saturnAge}. Your time left on saturn is ${saturnRemain} Saturn years.<br>`);
   $("p").append(yearsLeft);
 });
