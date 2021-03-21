@@ -5,6 +5,9 @@ describe('Agecalc', () => {
 
   inputTest = new Agecalc(20);
 
+  test('should return earth years left to live', () => {
+    expect(inputTest.pastExpect()).toEqual(`you have exactly${85 - this.spaceAges} Earth years to live`);
+  });
 
   test('should create an Agecalc object with the defined age', () => {
     expect(inputTest.spaceAges).toEqual(20);
