@@ -1,9 +1,7 @@
 import Agecalc from './../src/agecalc.js';
 
 describe('Agecalc', () => {
-  let inputTest;
-
-  inputTest = new Agecalc(20);
+  let inputTest = new Agecalc(20);
 
   test('should return earth years left to live', () => {
     expect(inputTest.pastExpect()).toEqual(`you have exactly 65 Earth years to live`);
