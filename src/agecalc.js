@@ -3,11 +3,10 @@ export default class Agecalc {
     this.spaceAges = spaceAges;
   }
 
-
   pastExpect() {
     if (this.spaceAges > 85){
       return (`you are ${this.spaceAges - 85} Earth years past your life expectancy`);
-    } if (this.spaceAges <= 85) {
+    } else {
       return (`you have exactly ${85 - this.spaceAges} Earth years to live`);
     }
   }
