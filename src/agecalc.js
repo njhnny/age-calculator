@@ -17,9 +17,6 @@ export default class Agecalc {
   mercuryLeft() {
     let thisAge = Math.round(this.spaceAges / .24);
     let expectancy = Math.round(85 / .24);
-    // if (this.spaceAges > 85 ) {
-    // return expectancy - thisAge;
-    // }
     return expectancy - thisAge;
   }
   venusAge() {
