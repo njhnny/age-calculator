@@ -2,9 +2,14 @@ import Agecalc from './../src/agecalc.js';
 
 describe('Agecalc', () => {
   let inputTest = new Agecalc(20);
+  let oldAge = new Agecalc(100);
 
   test('should return earth years left to live', () => {
     expect(inputTest.pastExpect()).toEqual(`you have exactly 65 Earth years to live`);
+  });
+
+  test('should return years past life expectancy', () => {
+    expect(oldAge.pastExpect()).toEqual(`you are 15 Earth years past your life expectancy`);
   });
 
   test('should create an Agecalc object with the defined age', () => {
