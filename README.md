@@ -1,5 +1,5 @@
 # Super Galactic Age Calculator
-Created: 11/13/2020 Updated 3/13/2021
+Created: 11/13/2020 Updated 3/21/2021
 ## by Nick Hennessy
 The solar system is pretty old, and so are you. Find out your age on different planets.
 ## Technologies used
